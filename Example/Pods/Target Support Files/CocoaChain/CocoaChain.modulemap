@@ -1,0 +1,6 @@
+framework module CocoaChain {
+  umbrella header "CocoaChain-umbrella.h"
+
+  export *
+  module * { export * }
+}

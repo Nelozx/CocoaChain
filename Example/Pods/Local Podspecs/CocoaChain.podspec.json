@@ -1,0 +1,29 @@
+{
+  "name": "CocoaChain",
+  "version": "0.0.1",
+  "summary": "Improve your efficiency Of Coding on iOS",
+  "description": "Improve your efficiency Of Coding on iOS with chian",
+  "homepage": "https://github.com/nelozx/CocoaChain",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nelozx": "nelozx@163.com"
+  },
+  "source": {
+    "git": "https://github.com/nelozx/CocoaChain.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "CocoaChain/Classes/**/*",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.0",
+  "dependencies": {
+    "SnapKit": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

@@ -5,9 +5,4 @@ platform :ios, '9.0'
 target 'CocoaChain_Example' do
   pod 'CocoaChain', :path => '../'
 
-  target 'CocoaChain_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

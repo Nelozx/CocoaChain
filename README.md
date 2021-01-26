@@ -17,7 +17,7 @@ CocoaChain is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'CocoaChain'
+pod 'CocoaChain', :git => 'https://github.com/nelozx/CocoaChain.git'
 ```
 
 ## Author

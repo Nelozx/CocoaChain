@@ -1,0 +1,23 @@
+PODS:
+  - CocoaChain (0.0.1):
+    - SnapKit
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - CocoaChain (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  CocoaChain:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaChain: 582bd9e4175a9b70f34476a5fd13e45b11ad387e
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: d83f6b7a180c2db47e3f4826110fb3d9de819727
+
+COCOAPODS: 1.10.1

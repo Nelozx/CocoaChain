@@ -8,17 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CocoaChain'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of CocoaChain.'
+  s.version          = '0.0.1'
+  s.summary          = 'Improve your efficiency Of Coding on iOS '
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Improve your efficiency Of Coding on iOS with chian
                        DESC
 
   s.homepage         = 'https://github.com/nelozx/CocoaChain'
@@ -26,17 +21,12 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'nelozx' => 'nelozx@163.com' }
   s.source           = { :git => 'https://github.com/nelozx/CocoaChain.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
 
   s.source_files = 'CocoaChain/Classes/**/*'
+  s.ios.deployment_target = '10.0'
+  s.swift_version  = '5.0'
+  s.dependency 'SnapKit'
   
-  # s.resource_bundles = {
-  #   'CocoaChain' => ['CocoaChain/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
